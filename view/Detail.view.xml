@@ -1,9 +1,59 @@
 <mvc:View
+controllerName="sap.ui.demo.bookapp.controller.Detail"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 	<Page
-		title="{i18n>detailPageTitle}">
+		title="{i18n>detailPageTitle}"
+		showNavButton="true"
+		navButtonPress=".onNavBack"
+        >
 		<ObjectHeader
-			title="Author"/>
+            title="{author>FirstName} {author>LastName}" 
+            class="myCustomHeader" />
+            <Table items="{author>Works}">
+                <columns>
+                  <Column
+                    width="15em"
+                     class="sapUiSmallMargin">
+                    <Text text="{i18n>ColumnBookName}" />
+                  </Column>
+                   <Column
+                   width="10em"
+                   class="sapUiSmallMargin"
+                    demandPopin="true">
+                    <Text text="{i18n>ColumnBookGenre}" />
+                  </Column>
+                  <Column
+                  width="8em"
+                  class="sapUiSmallMargin"
+                    demandPopin="true">
+                    <Text text="{i18n>ColumnBookPublishYear}" />
+                  </Column>
+                  <Column
+                  class="sapUiSmallMargin"
+                  width="50%"
+                    minScreenWidth="Tablet"
+                    demandPopin="true">
+                    <Text text="{i18n>ColumnBookDescription}" />
+                  </Column>
+                </columns>
+            
+            
+            <items>
+                  <ColumnListItem>
+                    <cells>
+                      <Text
+                        text="{author>bookName}" />
+                      <Text
+                        text="{author>genre}" />
+                     <Text
+                      text="{author>publishYear}" />
+                      <Text
+                        text="{author>description}" />
+                    </cells>
+                  </ColumnListItem>
+                </items>
+              </Table>
+            
 	</Page>
 </mvc:View>

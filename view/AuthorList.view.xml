@@ -2,13 +2,23 @@
 controllerName="sap.ui.demo.bookapp.controller.AuthorList"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
+   
    <List
+      id="authorList"
       class="sapUiResponsiveMargin"
       width="auto"
       items="{author>/ats}" >
+   <headerToolbar>
+      <Toolbar>
+         <Title text="{i18n>authorListTitle}"/>
+         <ToolbarSpacer/>
+         <SearchField width="50%" search=".onFilterAuthors"
+         placeholder="{i18n>searchPlaceHolder}"/>
+      </Toolbar>
+   </headerToolbar>
       <items>
          <ObjectListItem
-            title="{author>FirstName} {author>LastName}, {author>Nation}"
+            title="{author>FirstName} {author>LastName}"
             type="Navigation"
             press="onPress">
         </ObjectListItem>

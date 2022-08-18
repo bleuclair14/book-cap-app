@@ -68,6 +68,62 @@
                     "description":"It is told in episodic form by a first-person narrator providing a series of glimpses into the mind and soul of the central character, Charles Strickland, a middle-aged English stockbroker, who abandons his wife and children abruptly to pursue his desire to become an artist."
                 }
             ]
+        },
+        {
+            "FirstName":"Elly",
+            "LastName": "Griffiths",
+            "Nation": "English",
+            "Works":[
+                {
+                    "bookName": "The Crossing Places",
+                    "publishYear":"2009",
+                    "genre":"Mystery",
+                    "description":"THE CROSSING PLACES marks the beginning of a captivating new crime series featuring an irresistible heroine."
+                },
+                {
+                    "bookName": "The Janus Stone ",
+                    "publishYear":"2010",
+                    "genre":"Mystery",
+                    "description":"Ruth Galloway is called in to investigate when builders, demolishing a large old house in Norwich to make way for a housing development, uncover the bones of a child beneath a doorway - minus the skull."
+                },
+                {
+                    "bookName": "A Girl Called Justice",
+                    "publishYear":"2019",
+                    "genre":"Children's Fiction",
+                    "description":"Missing maids, suspicious teachers and a snow storm to die for..."
+                }
+            ]
+        },
+        {
+            "FirstName":"Haruki",
+            "LastName": "Murakami",
+            "Nation": "Japanese",
+            "Works":[
+                {
+                    "bookName": "Colorless Tsukuru Tazaki and His Years of Pilgrimage",
+                    "publishYear":"2013",
+                    "genre":"Realist Bildungsroman",
+                    "description":"The novel is a realist Bildungsroman that tells the story of Japanese railroad engineer Tsukuru Tazaki. When his close-knit group of friends abruptly cuts all relationships with him, a young Tsukuru is left depressed and without answers. Years later, Tsukuru attempts to reconcile with his old friends, embarking on a quest for truth and a pilgrimage for happiness."
+                },
+                {
+                    "bookName": "1Q84",
+                    "publishYear":"2009",
+                    "genre":"Fiction",
+                    "description":" It covers a fictionalized year of 1984 in parallel with a 'real' one. The novel is a story of how a woman named Aomame begins to notice strange changes occurring in the world. She is quickly caught up in a plot involving Sakigake, a religious cult, and her childhood love, Tengo, and embarks on a journey to discover what is 'real'."
+                },
+                {
+                    "bookName": "Norwegian Wood",
+                    "publishYear":"1987",
+                    "genre":"Literary Fiction",
+                    "description":"It is told from the first-person perspective of Toru Watanabe, who looks back on his days as a college student living in Tokyo. Through Watanabe's reminiscences, readers see him develop relationships with two very different women—the beautiful yet emotionally troubled Naoko, and the outgoing, lively Midori."
+                },
+                {
+                    "bookName": "Hear the Wind Sing",
+                    "publishYear":"1979",
+                    "genre":"Realist Novel",
+                    "description":"Feeling writing as a terribly painful task, the narrator re-tells the story of his 1970 summer."
+                }
+            ]
         }
     ]
 }
