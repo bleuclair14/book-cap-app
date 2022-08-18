@@ -1,0 +1,73 @@
+{
+    "authors":[
+        {
+            "firstName":"Ernest",
+            "lastName": "Hemingway",
+            "nationality": "the US",
+            "works":[
+                {
+                    "bookName": "The Old Man and the Sea",
+                    "publishYear":"1952",
+                    "genre":"Literary Fiction",
+                    "description":"It tells the story of Santiago, an aging Cuban fisherman who struggles with a giant marlin far out in the Gulf Stream off the coast of Cuba."
+                },
+                {
+                    "bookName": "For Whom the Bell Tolls",
+                    "publishYear":"1940",
+                    "genre":"War novel",
+                    "description":"It tells the story of Robert Jordan, a young American volunteer attached to a Republican guerrilla unit during the Spanish Civil War. As a dynamiter, he is assigned to blow up a bridge during an attack on the city of Segovia."
+                },
+                {
+                    "bookName": "To Have and Have Not",
+                    "publishYear":"1937",
+                    "genre":"Fiction",
+                    "description":"The book follows Harry Morgan, a fishing boat captain out of Key West, Florida."
+                }
+            ]
+        },
+        {
+            "firstName":"George",
+            "lastName": "Orwell",
+            "nationality": "English",
+            "works":[
+                {
+                    "bookName": "Nineteen Eighty-Four",
+                    "publishYear":"1949",
+                    "genre":"Political Fiction",
+                    "description":"Thematically, it centres on the consequences of totalitarianism, mass surveillance and repressive regimentation of people and behaviours within society."
+                },
+                {
+                    "bookName": "Animal Farm",
+                    "publishYear":"1945",
+                    "genre":"Political satire",
+                    "description":"It tells the story of a group of farm animals who rebel against their human farmer, hoping to create a society where the animals can be equal, free, and happy."
+                }
+            ]
+        },
+        {
+            "firstName":"William",
+            "lastName": "Maugham",
+            "nationality": "English",
+            "works":[
+                {
+                    "bookName": "The Magician",
+                    "publishYear":"1908",
+                    "genre":"Fantasy Novel",
+                    "description":"In this tale, the magician Oliver Haddo, a caricature of Aleister Crowley, attempts to create life."
+                },
+                {
+                    "bookName": "The Razor's Edge",
+                    "publishYear":"1944",
+                    "genre":"Fiction",
+                    "description":"It tells the story of Larry Darrell, an American pilot traumatized by his experiences in World War I, who sets off in search of some transcendent meaning in his life."
+                },
+                {
+                    "bookName": "The Moon and Sixpence",
+                    "publishYear":"1919",
+                    "genre":"Biographical novel",
+                    "description":"It is told in episodic form by a first-person narrator providing a series of glimpses into the mind and soul of the central character, Charles Strickland, a middle-aged English stockbroker, who abandons his wife and children abruptly to pursue his desire to become an artist."
+                }
+            ]
+        }
+    ]
+}

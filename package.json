@@ -1,0 +1,30 @@
+{
+  "name": "bookapp",
+  "version": "1.0.0",
+  "description": "bookapp mock up",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bleuclair14/bookapp.git"
+  },
+  "keywords": [
+    "sapui5"
+  ],
+  "author": "Zhao Yunhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bleuclair14/bookapp/issues"
+  },
+  "homepage": "https://github.com/bleuclair14/bookapp#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
