@@ -1,14 +1,15 @@
 <mvc:View
-    xmlns="sap.m"
-    xmlns:mvc="sap.ui.core.mvc"  >
-    <List
-        headerText="{i18n>authorListTitle}"
-        class="sapUiResponsiveMargin"
-        width="auto"
-        items="{author>Authors}">
-        <items>
-            <ObjectListItem
-                title="{author>nationality}" />
-        </items>
-    </List>
+		controllerName="sap.ui.demo.bookapp.controller.App"
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc">
+	<Page title="{i18n>homePageTitle}">
+        <headerContent>
+			<Button
+					icon="sap-icon://hello-world"
+					press=".onOpenDialog"/>
+		</headerContent>
+		<content>
+			<mvc:XMLView viewName="sap.ui.demo.bookapp.view.AuthorList"/>
+		</content>
+	</Page>
 </mvc:View>

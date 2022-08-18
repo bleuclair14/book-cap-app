@@ -4,21 +4,6 @@
    xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
   <Shell>
-   <App>
-      <pages>
-         <Page title="{i18n>homePageTitle}">
-            <content>
-               <Panel
-                  headerText="{i18n>overviewPanelTitle}"
-							class="sapUiResponsiveMargin"
-							width="auto">
-                  <content>
-                     <mvc:XMLView viewName="sap.ui.demo.bookapp.view.Overview"/>
-                  </content>
-               </Panel>
-            </content>
-         </Page>
-      </pages>
-   </App>
+   <App id="app" />
    </Shell>
 </mvc:View>

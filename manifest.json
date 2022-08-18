@@ -44,6 +44,38 @@
             "type": "sap.ui.model.json.JSONModel",
 		    "uri": "Authors.json"
         }
+      },
+      "routing": {
+        "config": {
+          "routerClass": "sap.m.routing.Router",
+          "type": "View",
+          "viewType": "XML",
+          "path": "sap.ui.demo.bookapp.view",
+          "controlId": "app",
+          "controlAggregation": "pages"
+        },
+        "routes": [
+          {
+            "pattern": "",
+            "name": "overview",
+            "target": "overview"
+          },
+          {
+            "pattern": "detail",
+            "name": "detail",
+            "target": "detail"
+          }
+        ],
+        "targets": {
+          "overview": {
+            "id": "overview",
+            "name": "Overview"
+          },
+          "detail": {
+            "id": "detail",
+            "name": "Detail"
+          }
+        }
       }
     }
   }

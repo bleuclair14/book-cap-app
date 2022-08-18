@@ -1,0 +1,17 @@
+<mvc:View
+controllerName="sap.ui.demo.bookapp.controller.AuthorList"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <List
+      class="sapUiResponsiveMargin"
+      width="auto"
+      items="{author>/ats}" >
+      <items>
+         <ObjectListItem
+            title="{author>FirstName} {author>LastName}, {author>Nation}"
+            type="Navigation"
+            press="onPress">
+        </ObjectListItem>
+      </items>
+   </List>
+</mvc:View>

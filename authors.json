@@ -1,10 +1,10 @@
 {
-    "Authors":[
+    "ats":[
         {
-            "firstName":"Ernest",
-            "lastName": "Hemingway",
-            "nationality": "the US",
-            "works":[
+            "FirstName":"Ernest",
+            "LastName": "Hemingway",
+            "Nation": "The US",
+            "Works":[
                 {
                     "bookName": "The Old Man and the Sea",
                     "publishYear":"1952",
@@ -26,10 +26,10 @@
             ]
         },
         {
-            "firstName":"George",
-            "lastName": "Orwell",
-            "nationality": "English",
-            "works":[
+            "FirstName":"George",
+            "LastName": "Orwell",
+            "Nation": "English",
+            "Works":[
                 {
                     "bookName": "Nineteen Eighty-Four",
                     "publishYear":"1949",
@@ -45,10 +45,10 @@
             ]
         },
         {
-            "firstName":"William",
-            "lastName": "Maugham",
-            "nationality": "English",
-            "works":[
+            "FirstName":"William",
+            "LastName": "Maugham",
+            "Nation": "English",
+            "Works":[
                 {
                     "bookName": "The Magician",
                     "publishYear":"1908",
